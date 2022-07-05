@@ -25,7 +25,7 @@ function eventListener() {//Tüm event listenerlar
     clearButton.addEventListener("click",clearAllTodos);
 }
 function clearAllTodos() {
-    if (confirm("Tümünü silmek istediğinizden emin misiniz? LOCAL")) {
+    if (confirm("Tümünü silmek istediğinizden emin misiniz? LOCAL Deneme")) {
         /* localStorage.clear();
         setTimeout(loadAlltodostoUI(),1000); */
 
